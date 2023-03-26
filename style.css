@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+    font-family: 'Roboto','Lato', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background: linear-gradient(rgba(83, 81, 81, 0.538),rgba(0, 0, 0, 0.665)), url(./images/pexels-tamás-mészáros-12064.jpg)no-repeat center center/ cover;
+}
+.container{
+    width: 550px;
+    height: 450px;
+}
+.header{
+    font-size: 1.2rem;
+    border: solid 2px white;
+    color: beige;
+    border-radius: 5px;
+    background-color: #262626;
+    width: 80%;
+    padding: 5px;
+    margin: 20px auto;
+}
+.main-content{
+    width: 100%;
+    height: 300px;
+    background-color: rgba(83, 79, 79, 0.829);
+    border-radius:15px ;
+    padding: 50px 40px;
+    box-shadow: 01px 01px 20px rgba(207, 101, 14, 0.861);
+}
+.main-content .text-area{
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+.main-content .person{
+     font-size: 1.6rem;
+     font-weight: 600;
+     color: rgb(26, 26, 69);
+     text-transform: uppercase ;
+     margin-top: 20px;
+}
+
+.button-area button{
+    cursor: pointer;
+    background-color: #262626;
+    color: #68cdd8;
+    font-size: 1.3rem;
+    padding: 10px 15px;
+    margin: 20px;
+    border-radius: 5px;
+
+}
+
+.button-area button:active{
+    background-color: rgb(8, 118, 112);
+    border:2px solid rgba(0, 255, 255, 0.679);
+}

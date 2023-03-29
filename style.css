@@ -41,6 +41,7 @@ body{
 }
 
 .main-content .person{
+    top: 30px;
      font-size: 1.6rem;
      font-weight: 600;
      color: rgb(26, 26, 69);
@@ -62,4 +63,9 @@ body{
 .button-area button:active{
     background-color: rgb(8, 118, 112);
     border:2px solid rgba(0, 255, 255, 0.679);
+}
+
+.quote{
+    font-weight: 500;
+    color: aquamarine;
 }

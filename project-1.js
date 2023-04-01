@@ -28,7 +28,13 @@ const quotes = [{
 },{
     quote: `"In three words I can sum up everything I've learned about life: it goes on."`,
     person:`Robert Frost`
-},
+},{
+    quote: `"You know you're in love when you can't fall asleep because reality is finally better than your dreams."`,
+    person:`Dr. Seuss`
+},{
+    quote: `"It is better to be hated for what you are than to be loved for what you are not."`,
+    person: `Andre Gide, (Source - Autumn Leaves)`
+}
 ];
 
 btn.addEventListener('click',function(){
